@@ -40,6 +40,13 @@ a {
     font-weight: bold;
 }
 
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 2rem;
+    color: #f0f8ff;
+}
+
 .hero {
     background-color: black;
     color: #f0f8ff;
@@ -86,15 +93,31 @@ img {
 
 .hero-left button {
     margin-top: 12px;
-  margin-bottom: 10px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 32px;
-  padding-right: 32px;
-  font-size: 18px;
-  color: #f9faf8;
-  background-color: #1f2937;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+    margin-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 18px;
+    color: #f9faf8;
+    background-color: #1f2937;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.infoo {
+    background-color: #1f2937;
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoo h2 {
+    font-size: 36px;
+    color: #f0f8ff;
+    font-weight: 900;
+    text-align: center;
 }
