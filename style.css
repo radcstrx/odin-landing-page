@@ -15,9 +15,8 @@ header {
 
 .header{
     background-color: #1f2937;
-    justify-content: space-evenly;
+    justify-content: space-between;
     display: flex;
-    align-items: center;
     gap: 1rem;
 }
 
@@ -41,10 +40,10 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 120px;
-    padding-bottom: 125px;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-top: 100px;
+    padding-bottom: 105px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .hero-left {
@@ -63,13 +62,13 @@ ul {
 }
 
 .hero-left h1 {
-    font-size: 38px;
+    font-size: 50px;
     font-weight: 700
 }
 
 .hero-left p {
     font-size: 18px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 img {
