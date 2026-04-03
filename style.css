@@ -28,8 +28,14 @@ ul {
     font-size: 20px;
 }
 
+a {
+    color: #f0f8ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .logo {
-    color: aliceblue;
+    color: #f0f8ff;
     font-size: 25px;
     font-weight: bold;
 }
@@ -62,8 +68,8 @@ ul {
 }
 
 .hero-left h1 {
-    font-size: 50px;
-    font-weight: 700
+    font-size: 69px;
+    font-weight: 700;
 }
 
 .hero-left p {
@@ -72,8 +78,23 @@ ul {
 }
 
 img {
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 8px;
     box-shadow: 3px 3px 12px 3px rgba(83, 76, 76, 0.5);
+}
+
+.hero-left button {
+    margin-top: 12px;
+  margin-bottom: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-size: 18px;
+  color: #f9faf8;
+  background-color: #1f2937;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
