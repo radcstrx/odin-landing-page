@@ -1,1 +1,80 @@
-/* will code later or tomorrow */
+/* code */
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+  background-color: #1f2937;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.header{
+    background-color: #1f2937;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+ul {
+    color: #f0f8ff;
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.logo {
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: black;
+    color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 125px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.hero-left h1 {
+    font-size: 38px;
+    font-weight: 700
+}
+
+.hero-left p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 12px 3px rgba(83, 76, 76, 0.5);
+}
