@@ -48,7 +48,7 @@ footer {
 }
 
 .hero {
-    background-color: black;
+    background-color: #1f2937;
     color: #f0f8ff;
     display: flex;
     justify-content: center;
@@ -88,7 +88,7 @@ img {
     width: 80%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 3px 3px 12px 3px rgba(83, 76, 76, 0.5);
+    box-shadow: 3px 3px 12px 3px #534c4c80;
 }
 
 .hero-left button {
@@ -100,24 +100,133 @@ img {
     padding-right: 32px;
     font-size: 18px;
     color: #f9faf8;
-    background-color: #1f2937;
+    background-color: #0f58be;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .infoo {
-    background-color: #1f2937;
     color: #f0f8ff;
-    margin: 80px 0;
+    background-color: #000000;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 75px;
+    padding-bottom: 80px;
 }
 
 .infoo h2 {
     font-size: 32px;
     font-weight: 700;
     text-align: center;
+}
+
+.infocontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    padding-top: 40px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.infosquare {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 5px solid #0f58be;
+    background-color: #000000;
+}
+
+.quote {
+    background-color: #1f2937;
+    font-size: 36px;
+    color: #f0f8ff;
+    font-weight: 300;
+    padding: 80px 0;
+}
+
+.quotewrap {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.qtext {
+    text-align: justify;
+    font-style: italic;
+    font-size: 30px;
+    color: #f0f8ff;
+    font-weight: 250;
+    line-height: 45px;
+}
+
+.qauthor {
+    font-size: 27px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.ctabox {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+    padding: 3px 2px;
+    background-color: #0f58be;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.ctacont {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 900px;
+    padding: 30px 8px;
+}
+
+.ctatxt h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.ctatxt p {
+    color: #c4c6ca;
+    font-weight: 400;
+}
+
+.ctabut button {
+    margin-top: 12px;
+    margin-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 18px;
+    color: #f9faf8;
+    background-color: #0f58be;
+    border: 3px solid #f0f8ff;
+    border-radius: 5px;
+    cursor: pointer;
 }
